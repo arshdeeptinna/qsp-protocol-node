@@ -113,10 +113,12 @@ You should be able to see your account details, your `[Ethereum public address]`
 #### Import account into MetaMask
 Your node will identify itself to the network via the account that you just created. In order to be
 accepted as an auditor, you will need to stake some QSP. The instructions below will show you how to import
-the account to Metamask so that you can stake QSP.
+the account to MetaMask so that you can stake QSP. 
 
-1. Open MetaMask and login. 
-(If you do not have a metamask account, create one and login until you see this screen.
+1. Download MetaMask [here](https://metamask.io/)
+
+1. Open MetaMask and login
+
     ![](./node-operator/METAMASK-IMPORT-01-Open.png)
 
 1. Click the upper right circle to browse `My Accounts`
@@ -165,7 +167,7 @@ After you paste the contents of `[MyEtherWallet keystore file]` into `resources/
 
 
 
-## Making your account eligible as a node operator
+## Making your account eligible as a node operator ([Click here](https://youtu.be/3EeU_BCqAt0) to watch it on Youtube)
 > WARNING: You should conduct your own diligence, exercise caution, and use your best judgment in connection with staking amounts and interacting through use of these materials. Refunds are not available. You may risk loss of QSP, Ether, tokens, or other loss. Features, functionality, schedules, or design architectures are subject to continuing update, modification, cancellation, delay, external dependencies, evolving regulatory frameworks, and/or factors beyond our control and you are cautioned not to place undue reliance on this information. FOR AVOIDANCE OF DOUBT, THE MATERIALS, AND ACCESS AND/OR USAGE THEREOF, INCLUDING ANY ASSOCIATED OR LINKED INFORMATION, SHALL NOT BE CONSIDERED OR RELIED UPON AS ANY MANNER OR FORM OF INVESTMENT, INVESTMENT PURPOSE, VEHICLE WITH AN EXPECTATION TO EARN A PROFIT, OR FINANCIAL, INVESTMENT, TAX, LEGAL, REGULATORY, OR OTHER ADVICE.
 ### Transfer Ether and QSP to  `[Ethereum public address]`
 Your node needs Ether to pay for gas when transacting with the network. We recommend that you transfer a small amount of Ether into the account.
@@ -186,7 +188,7 @@ There are two steps to stake in the Quantstamp Protocol:
 #### Approve `[The Protocol Contract]` to withdraw QSP from you
 In this part, we will be interacting with the `[QSP Token Contract]` to allow staking into `[The Protocol Contract]`. You could interact with the `[QSP Token Contract]` through the website [Etherscan.io](http://etherscan.io).
 
-1. View `[QSP Token Contract]` on Mainnet with MyEtherScan: https://etherscan.io/address/0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d
+1. View `[QSP Token Contract]` on Mainnet with MyEtherScan: https://etherscan.io/token/0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d
 
 1. Navigate to `Write Contract` in the tabs below
 
